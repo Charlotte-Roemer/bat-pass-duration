@@ -13,7 +13,8 @@ These scripts were developed using the **[Tadarida](https://github.com/YvesBas/T
 5) Optional: run 3_Calculate_nb_bat_passes_per_night.R
 
 # Study correlations between bat feeding buzzes and bat pass duration
-1) Run 4_Create_final_dataset.R
-2) Run 5_Model_Pippip.R
+1) Run all scripts above
+2) Run 4_Create_final_dataset.R
+3) Run 5_Model_Pippip.R
 
 
