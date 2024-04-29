@@ -50,6 +50,8 @@ dev.off()
 cor.test(log10(data_pippip$mean_bat_pass_duration+1), data_pippip$st_deviation, method = 'pearson')
 cor.test(log10(data_pippip$buzz_rate+1), data_pippip$st_deviation, method = 'pearson')
 cor.test(log10(data_pippip$buzz_rate+1), log10(data_pippip$mean_bat_pass_duration+1), method = 'pearson')
+# cor.test(log10(data_pippip$buzz_rate+1), log10(data_pippip$nb_bat_passes+1), method = 'pearson')
+# cor.test(log10(data_pippip$mean_bat_pass_duration+1), log10(data_pippip$nb_bat_passes+1), method = 'pearson')
 
 
 #
